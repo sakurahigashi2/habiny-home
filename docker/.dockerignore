@@ -1,0 +1,31 @@
+# Git関連
+.git
+.gitignore
+README.md
+
+# Docker関連
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 開発関連
+.vscode
+.idea
+*.log
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# ログファイル
+logs/
+*.log
+
+# Node.js関連（もし将来使用する場合）
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 一時ファイル
+*.tmp
+*.temp

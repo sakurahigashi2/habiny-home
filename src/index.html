@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://habiny.com/">
+
+  <link rel="alternate" hreflang="zh-TW" href="https://habiny.com/tw/">
+  <link rel="alternate" hreflang="ko" href="https://habiny.com/kr/">
+  <link rel="alternate" hreflang="x-default" href="https://habiny.com/">
+
+  <title>Habiny - 每一次接觸都更加愛上日本 | 日本文化・觀光・生活情報</title>
+  <meta name="description" content="Habiny提供最新日本文化、觀光景點、生活資訊。支援繁體中文和韓語，讓您更深入了解日本的魅力。">
+
+  <meta property="og:url" content="https://habiny.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Habiny - 每一次接觸都更加愛上日本">
+  <meta property="og:description" content="Habiny提供最新日本文化、觀光景點、生活資訊。支援繁體中文和韓語，讓您更深入了解日本的魅力。">
+  <meta property="og:site_name" content="Habiny">
+  <meta property="og:image" content="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/ogp-zh.png?ver=1.0.2">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:locale:alternate" content="ko_KR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Habiny - 每一次接觸都更加愛上日本">
+  <meta name="twitter:description" content="Habiny提供最新日本文化、觀光景點、生活資訊。支援繁體中文和韓語，讓您更深入了解日本的魅力。">
+  <meta name="twitter:image" content="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/ogp-zh.png?ver=1.0.2">
+
+  <link rel="icon" type="image/x-icon" href="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/favicon.ico?ver=1.0.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/apple-touch-icon-180x180.png?ver=1.0.2">
+
+  <!-- JSON-LD structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Habiny",
+    "description": "每一次接觸都更加愛上日本 - 日本文化・觀光・生活情報",
+    "url": "https://habiny.com/",
+    "inLanguage": ["zh-TW", "ko"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://habiny.com/tw/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Habiny, inc.",
+      "url": "https://habiny.co.jp/"
+    },
+    "mainEntity": [
+      {
+        "@type": "WebPage",
+        "@id": "https://habiny.com/tw/",
+        "name": "Habiny 繁體中文",
+        "inLanguage": "zh-TW",
+        "url": "https://habiny.com/tw/"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://habiny.com/kr/",
+        "name": "Habiny 한국어",
+        "inLanguage": "ko",
+        "url": "https://habiny.com/kr/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- React CDN -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PLP3K2QS');</script>
+
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/reset.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/variables.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/components/adjuster.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/components/post-list.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/components/text.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/layouts/footer.css?ver=1.0.2' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/css/layouts/single-column.css?ver=1.0.2' type='text/css' media='all' />
+
+  <style>
+    .logo {
+      width: 290px;
+      height: 72px;
+      margin-bottom: 16px;
+    }
+
+    .logo-text {
+      font-size: var(--heading-medium);
+      font-weight: 600;
+      color: #0A2F72;
+
+      &.last {
+        color: #82B14A;
+      }
+    }
+
+    .layout-flag {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 32px;
+      padding: 24px;
+      border: 1px solid var(--border-primary);
+      border-radius: var(--border-radius-primary);
+    }
+
+    .flag-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: var(--text-small);
+      font-weight: 600;
+    }
+
+    .flag-icon {
+      width: 60px;
+      height: 40px;
+      margin-bottom: 16px;
+    }
+
+    .layout-articles {
+      min-height: 274px;
+      margin-bottom: 32px;
+    }
+
+    .button-primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 48px;
+      border-radius: var(--border-radius-primary);
+      background-color: #82B14A;
+      text-decoration: none;
+      color: #fff;
+      font-size: var(--text-medium);
+      font-weight: 600;
+    }
+
+    @media screen and (max-width: 767px) {
+      .logo {
+        width: 210px;
+        height: 52px;
+      }
+
+      .logo-text {
+        font-size: var(--heading-small);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="layout-single-column" style="margin-top: 50px;">
+    <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 16px;">
+      <img class="logo" src="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/logo.svg?ver=1.0.2" alt="Habiny" loading="lazy">
+      <h1><span class="logo-text">每一次接觸, </span><span class="logo-text last">都更加愛上日本</span></h1>
+    </div>
+
+    <ul class="layout-flag">
+      <li>
+        <a class="flag-block" href="/tw/">
+          <img class="flag-icon" src="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/national-flag/tw.svg" alt="繁體中文" loading="lazy">
+          <span class="flag-text">中文繁體</span>
+        </a>
+      </li>
+      <li>
+        <a class="flag-block" href="/kr/">
+          <img class="flag-icon" src="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/national-flag/kr.svg" alt="한국어" loading="lazy">
+          <span class="flag-text">한국어</span>
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <main class="layout-single-column">
+    <div class="component-adjuster-title-margin-bottom-lg">
+      <h2 class="component-adjuster-title-margin-bottom component-text-third-title">Habiny (繁體中文) 的推薦文章</h2>
+      <div id="js-fetched-rss-articles-tw" class="layout-articles"></div>
+      <div><a class="button-primary" href="/tw/">瀏覽Habiny (繁體中文) 網站</a></div>
+    </div>
+
+    <div>
+      <h2 class="component-adjuster-title-margin-bottom component-text-third-title">Habiny (한국어) 추천 기사</h2>
+      <div id="js-fetched-rss-articles-kr" class="layout-articles"></div>
+      <div><a class="button-primary" href="/kr/">Habiny (한국어) 사이트 더보기</a></div>
+    </div>
+  </main>
+
+  <footer class="layout-footer">
+    <div class="layout-footer__inner">
+      <img src="https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/logo.svg?ver=1.0.2" alt="Habiny" class="layout-footer__logo" loading="lazy">
+      <div class="layout-footer__content">
+        <p class="layout-footer__catch-copy-text">
+          每一次接觸,&nbsp;都更加愛上日本
+        </p>
+      </div>
+      <div class="layout-footer__content last">
+        <div class="layout-footer__menu-wrapper">
+          <div class="layout-footer__menu-container">
+            <p class="layout-footer__menu-title">营运服务</p>
+            <ul class="layout-footer__menu">
+              <li class="menu-item">
+                <a href="https://habiny.com/tw/" aria-current="page">Habiny(繁體字)</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://habiny.com/kr/">Habiny(韩国语)</a>
+              </li>
+            </ul>
+          </div>
+          <div class="layout-footer__menu-container">
+            <p class="layout-footer__menu-title">公司简介</p>
+            <ul class="layout-footer__menu">
+              <li class="menu-item">
+                <a rel="privacy-policy" href="https://habiny.com/tw/privacy">隱私權政策</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://habiny.com/tw/tos">網站使用條款</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://habiny.com/tw/company">營運公司</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://habiny.com/tw/inquiry">聯絡我們</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="layout-footer__copyright">
+        &copy; Habiny, inc.
+      </p>
+    </div>
+  </footer>
+
+  <script type="text/babel">
+    const { useState } = React;
+
+    function RSSArticles({ countryCode }) {
+      const [articles, setArticles] = useState([]);
+      const [loading, setLoading] = useState(true);
+      const [error, setError] = useState(null);
+
+      const fetchRSSFeed = async () => {
+        try {
+          setLoading(true);
+          setError(null);
+
+          let feedPath = `/${countryCode}/feed`;
+
+          // ローカル環境では各言語のサンプルファイルを使用
+          const isLocal = window.location.hostname === 'localhost';
+          if (isLocal) {
+            feedPath = `/data/feed_${countryCode}_sample.xml`;
+          }
+
+          const response = await fetch(feedPath);
+          const xmlText = await response.text();
+
+          if (!xmlText) {
+            throw new Error('Failed to fetch RSS feed');
+          }
+
+          // XMLをパース
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+          const items = xmlDoc.querySelectorAll('item');
+
+          if (items.length === 0) {
+            throw new Error('No items found in RSS feed');
+          }
+
+          // 最新3件を取得
+          const articleData = Array.from(items).slice(0, 3).map(item => {
+            const title = item.querySelector('title')?.textContent || 'No Title';
+            const link = item.querySelector('link')?.textContent || '#';
+
+            // サムネイル画像を取得
+            let thumbnail = `https://habiny.com/${countryCode}/wp-content/themes/habiny-wordpress-theme/assets/images/logo.svg?ver=1.0.2`;
+            const mediaThumbnail = item.querySelector('thumbnail, media\\:thumbnail');
+            if (mediaThumbnail) {
+              thumbnail = mediaThumbnail.getAttribute('url') || mediaThumbnail.textContent;
+            }
+
+            return {
+              title,
+              link,
+              thumbnail
+            };
+          });
+
+          setArticles(articleData);
+        } catch (error) {
+          console.error(`Failed to fetch RSS feed (${countryCode}):`, error);
+          setError(error.message);
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      React.useMemo(() => {
+        fetchRSSFeed();
+      }, []);
+
+      const handleImageError = (e) => {
+        e.target.src = 'https://habiny.com/tw/wp-content/themes/habiny-wordpress-theme/assets/images/no-image.webp?ver=1.0.2';
+      };
+
+      const getLoadingText = () => {
+        return 'Loading...';
+      };
+
+      const getErrorText = () => {
+        return 'Failed to fetch articles';
+      };
+
+      if (loading) {
+        return (
+          <div className="loading">{getLoadingText()}</div>
+        );
+      }
+
+      if (error) {
+        return (
+          <p>{getErrorText()}: {error}</p>
+        );
+      }
+
+      return (
+        <div>
+          {articles.map((article, index) => (
+            <article key={index} className="component-post-list">
+              <a className="component-post-list__inner" href={article.link} rel="noopener noreferrer">
+                <div className="component-post-list__header">
+                  <h3 className="component-post-list__title">{article.title}</h3>
+                </div>
+
+                <div className="component-post-list__thumbnail">
+                  <img
+                    src={article.thumbnail}
+                    alt={article.title || "no image"}
+                    onError={handleImageError}
+                    loading="lazy"
+                  />
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      );
+    }
+
+    ['tw', 'kr'].forEach(countryCode => {
+      const container = document.getElementById(`js-fetched-rss-articles-${countryCode}`);
+      if (container) {
+        const root = ReactDOM.createRoot(container);
+        root.render(<RSSArticles countryCode={countryCode} />);
+      }
+    });
+  </script>
+</body>
+</html>
