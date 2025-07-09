@@ -259,14 +259,7 @@
           setLoading(true);
           setError(null);
 
-          let feedPath = `/${countryCode}/feed`;
-
-          // ローカル環境では各言語のサンプルファイルを使用
-          const isLocal = window.location.hostname === 'localhost';
-          if (isLocal) {
-            feedPath = `/data/feed_${countryCode}_sample.xml`;
-          }
-
+          const feedPath = `/${countryCode}/feed`;
           const response = await fetch(feedPath);
           const xmlText = await response.text();
 
